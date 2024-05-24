@@ -1,19 +1,20 @@
 import React from "react";
-import { Header } from "./components/Header";
-import { Footer } from "./components/Footer";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
+import { Home2 } from "./components/Home";
+import { Courses } from "./components/Courses";
 
 export default function Home() {
   return (
     <>
-      <head></head>
-
       <Header />
-
-      <section></section>
+      <section>
+        <Home2 />
+        <Courses />
+      </section>
       <Footer />
     </>
   );

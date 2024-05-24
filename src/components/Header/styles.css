@@ -1,5 +1,3 @@
-
-
 .container-header {
   position: fixed;
   width: 100%;
@@ -9,7 +7,7 @@
   font-size: 1.2rem;
   position: relative;
   z-index: 10;
-  background: rgb(22, 2, 68);
+  background: linear-gradient(to right, #312e81, #be185d);
 
   a {
     color: white;
@@ -17,11 +15,11 @@
 
   @media (min-width: 995px) {
     display: flex;
-    height: 4rem;
+    height: 2rem;
     justify-content: space-around;
     padding: 1rem 0;
     align-items: center;
-    box-shadow: red 0px 10px 30px 1px;
+    
   }
 
   @media (min-width: 2000px) {
@@ -93,14 +91,17 @@ interface Click {
     gap: 1.2rem;
     justify-content: center;
     align-items: center;
+    list-style-type: none;
+    
 
     a {
       gap: 2px;
       font-size: 1.1rem;
       font-weight: 600;
-      color: red;
+      color: white;
       height: 1rem;
       cursor: pointer;
+      font-family: "Poppins", "Open Sans", sans-serif;
 
       span {
         line-height: 1.08;
@@ -126,7 +127,7 @@ interface Click {
       }
 
       &:hover {
-        color: yellow;
+        color: aqua;
         span:before {
           transform: scaleX(1);
           visibility: visible;

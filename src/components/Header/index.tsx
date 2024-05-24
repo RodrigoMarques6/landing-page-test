@@ -3,9 +3,9 @@ import "./styles.css";
 
 export function Header() {
   return (
-    
-
-    <section className="container-header" style={{ position: "fixed" }}>
+    <section className="container-header" 
+    // style={{ position: "fixed" }}
+    >
       <div className="mobile-content"></div>
 
       <nav className="nav-header">
@@ -24,19 +24,19 @@ export function Header() {
 
           <li>
             <a>
-              <span>Experiência</span>
+              <span>Cursos</span>
             </a>
           </li>
 
           <li>
             <a>
-              <span>Projetos</span>
+              <span>Modalidades</span>
             </a>
           </li>
 
           <li>
             <a>
-              <span>Resume</span>
+              <span>Depoimentos</span>
             </a>
           </li>
 

@@ -1,0 +1,67 @@
+#div-do-sobreMim {
+  display: flex;
+  max-width: 90%;
+  min-width: 250px;
+  min-height: 90vh;
+  margin: auto;
+  /* text-align: center; */
+  margin-top: 20px;
+  /* font-weight: 600;
+  font-size: 1.2rem; */
+}
+
+.div1-sobre {
+  width: 40%;
+  color: white;
+}
+
+.div2-sobre {
+  width: 60%;
+  margin-left: 5%;
+  
+}
+
+@media (max-width: 699px) {
+  #div-do-sobreMim {
+    padding: 30px;
+    display: block;
+  }
+}
+
+#h1-do-sobreMim {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 5vw;
+}
+
+#span-do-sobreMim {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  color: aqua;
+}
+
+#btn-curriculo:hover {
+  background-color: #068ae2;
+  color: white;
+}
+
+a {
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.edit-courses {
+  width: 13rem;
+  height: 13rem;
+  padding: 1rem;
+  border: 2px solid bisque;
+  border-radius: 10%;
+  color: bisque;
+  text-align: center;
+}
+
+.courses-flex {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem;
+}

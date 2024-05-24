@@ -1,0 +1,28 @@
+.section-home {
+    height: 90vh;
+}
+
+img {
+    width: 100vw;
+    height: 40vw;
+    position: absolute;
+}
+
+.div-home {
+    position: relative;
+    color: white;
+    border: 2px solid white;
+    max-width: 50%;
+    height: 90%;
+}
+
+.h1-home {
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+
+.p-home {
+    
+    margin-left: 10rem;
+}
+

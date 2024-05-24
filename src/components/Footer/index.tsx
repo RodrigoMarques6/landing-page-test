@@ -1,98 +1,52 @@
 import React from "react";
 import "./styles.css";
+import { FaWhatsapp, FaInstagram, FaFacebook } from 'react-icons/fa';
+import { MdEmail } from "react-icons/md";
 
 export function Footer() {
   return (
-    <div className="footer">
+<div className="footer">
       <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-sm-4 col-xs-12">
+          <div className="column">
             <div className="single_footer">
-              <h4>Services</h4>
-              <ul>
-                <li>
-                  <a href="#">Lorem Ipsum</a>
-                </li>
-                <li>
-                  <a href="#">Simply dummy text</a>
-                </li>
-                <li>
-                  <a href="#">The printing and typesetting </a>
-                </li>
-                <li>
-                  <a href="#">Standard dummy text</a>
-                </li>
-                <li>
-                  <a href="#">Type specimen book</a>
-                </li>
+              <h4>Para começar</h4>
+              <ul className="ul-init">
+                <li><a href="#" className="a-init">Dicas de Estudo</a></li>
+                <li><a href="#" className="a-init">Ensino Digital</a></li>
+                <li><a href="#" className="a-init">Mercado de trabalho</a></li>
+                <li><a href="#" className="a-init">Suporte técnico</a></li>
               </ul>
             </div>
           </div>
-          <div className="col-md-4 col-sm-4 col-xs-12">
+          <div className="column">
             <div className="single_footer single_footer_address">
-              <h4>Page Link</h4>
+              <h4>Estude conosco</h4>
               <ul>
-                <li>
-                  <a href="#">Lorem Ipsum</a>
-                </li>
-                <li>
-                  <a href="#">Simply dummy text</a>
-                </li>
-                <li>
-                  <a href="#">The printing and typesetting </a>
-                </li>
-                <li>
-                  <a href="#">Standard dummy text</a>
-                </li>
-                <li>
-                  <a href="#">Type specimen book</a>
-                </li>
+                <li><a href="#" className="a-init">Sobre Nós</a></li>
+                <li><a href="#" className="a-init">Porque Nossos Cursos?</a></li>
+                <li><a href="#" className="a-init">Imersões</a></li>
+                <li><a href="#" className="a-init">Contate-nos</a></li>
               </ul>
             </div>
           </div>
-          <div className="col-md-4 col-sm-4 col-xs-12">
+          <div className="column">
             <div className="single_footer single_footer_address">
-              <h4>Subscribe today</h4>
-              <div className="signup_form">
-                <form action="#" className="subscribe">
-                  
-                  <button type="button" className="subscribe__btn">
-                    <i className="fas fa-paper-plane"></i>
-                  </button>
-                </form>
-              </div>
+              <h4>Nossas redes sociais</h4>
             </div>
-            <div className="social_profile">
+            <div className="social">
               <ul>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-google-plus-g"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                </li>
+                <li><a href="#"><i><FaWhatsapp /></i></a></li>
+                <li><a href="#"><i><FaInstagram /></i></a></li>
+                <li><a href="#"><i><FaFacebook /></i></a></li>
+                <li><a href="#"><i></i><MdEmail /></a></li>
               </ul>
             </div>
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-12 col-sm-12 col-xs-12">
-            <p className="copyright">
-              Copyright © 2019 <a href="#">Akdesign</a>.
-            </p>
+          <div className="full-width">
+            <p className="finish">&copy; {new Date().getFullYear()} - Todos os direitos reservados </p>
           </div>
         </div>
       </div>

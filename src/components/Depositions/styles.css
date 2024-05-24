@@ -1,0 +1,48 @@
+#h1-depositions {
+    font-family: "Poppins", "Open Sans", sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 5vw;
+    font-size: 1.6rem;
+  }
+  
+  #span-depositions {
+    font-family: "Poppins", "Open Sans", sans-serif;
+    color: aqua;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .carousel {
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+    border: 2px solid #ccc;
+    background: white;
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightgray;
+    border: 1px solid red;
+    height: 150px;
+    font-size: 2em;
+    box-sizing: border-box;
+  }

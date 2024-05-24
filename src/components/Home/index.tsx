@@ -9,11 +9,11 @@ export function Home2() {
       </div>
       <div className="div-home">
         <h1 className="h1-home">
-          Qual será o próximo passo para construir um futuro de liberdade
-          financeira?
+          Qual será o próximo passo para construir um futuro de <span className="span-header">liberdade
+          financeira?</span>
         </h1>
         <p className="p-home">
-          Te ajudaremos a reinventar seu futuro. Comece hoje!
+          Te ajudaremos a reinventar seu futuro. <b><span className="span-header">Comece hoje!</span></b>
         </p>
       </div>
     </section>

@@ -1,41 +1,40 @@
-#div-do-sobreMim {
+#div-courses {
   display: flex;
   max-width: 90%;
   min-width: 250px;
   min-height: 90vh;
   margin: auto;
-  /* text-align: center; */
   margin-top: 20px;
-  /* font-weight: 600;
-  font-size: 1.2rem; */
+  font-family: 'Poppins';
 }
 
-.div1-sobre {
+.div1-courses {
   width: 40%;
   color: white;
 }
 
-.div2-sobre {
+.div2-courses {
   width: 60%;
   margin-left: 5%;
   
 }
 
 @media (max-width: 699px) {
-  #div-do-sobreMim {
+  #div-courses {
     padding: 30px;
     display: block;
   }
 }
 
-#h1-do-sobreMim {
+#h1-courses {
   font-family: "Poppins", "Open Sans", sans-serif;
   color: white;
   text-align: center;
   margin-top: 5vw;
+  font-size: 1.6rem;
 }
 
-#span-do-sobreMim {
+#span-courses {
   font-family: "Poppins", "Open Sans", sans-serif;
   color: aqua;
 }
@@ -58,6 +57,7 @@ a {
   border-radius: 10%;
   color: bisque;
   text-align: center;
+  font-size: 0.9rem;
 }
 
 .courses-flex {

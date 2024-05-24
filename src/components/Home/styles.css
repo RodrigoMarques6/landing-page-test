@@ -1,28 +1,33 @@
 .section-home {
-    height: 90vh;
+  height: 90vh;
+  font-family: "Poppins";
 }
 
 img {
-    width: 100vw;
-    height: 40vw;
-    position: absolute;
+  width: 100%;
+  height: 90%;
+  position: absolute;
 }
 
 .div-home {
-    position: relative;
-    color: white;
-    border: 2px solid white;
-    max-width: 50%;
-    height: 90%;
+  position: relative;
+  color: white;
+  padding-top: 5rem;
+  max-width: 40%;
+  height: 90%;
 }
 
 .h1-home {
-    margin-top: 10rem;
-    margin-left: 10rem;
+  margin-left: 10rem;
+  font-family: "Poppins";
 }
 
 .p-home {
-    
-    margin-left: 10rem;
+  margin-left: 10rem;
+  font-family: "Poppins";
 }
 
+.span-header {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  color: aqua;
+}

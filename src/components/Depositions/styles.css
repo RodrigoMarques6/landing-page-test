@@ -1,48 +1,86 @@
 #h1-depositions {
-    font-family: "Poppins", "Open Sans", sans-serif;
-    color: white;
-    text-align: center;
-    margin-top: 5vw;
-    font-size: 1.6rem;
-  }
-  
-  #span-depositions {
-    font-family: "Poppins", "Open Sans", sans-serif;
-    color: aqua;
-  }
+  font-family: "Poppins", "Open Sans", sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 5vw;
+  font-size: 1.6rem;
+}
 
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-  }
-  
-  .carousel {
-    overflow: hidden;
-    width: 80%;
-    max-width: 600px;
-    position: relative;
-    border: 2px solid #ccc;
-    background: white;
-  }
-  
-  .carousel-track {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .carousel-item {
-    flex: 0 0 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: lightgray;
-    border: 1px solid red;
-    height: 150px;
-    font-size: 2em;
-    box-sizing: border-box;
-  }
+#span-depositions {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  color: aqua;
+}
+
+#div-depositions {
+  display: flex;
+  width: 90%;
+  height: 50vh;
+  padding: 2rem;
+}
+
+.section-depositions {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+}
+
+.carousel {
+  overflow: hidden;
+  margin-left: 1rem;
+  position: relative;
+
+  background: white;
+  border-radius: 10px;
+  width: 60%;
+}
+
+.description {
+  width: 40%;
+  margin-right: 1rem;
+  color: white;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  height: 100%;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(30 27 75);
+  border: 2px solid #be185d;
+  font-size: 1.2rem;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.carousel-item h2 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.carousel-item p {
+  font-size: 1rem;
+  color: white;
+}
+
+.quote-icon {
+  font-size: 4rem;
+  color: aqua;
+}
+
+#feedback {
+  color: aqua;
+}

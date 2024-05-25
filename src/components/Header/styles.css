@@ -19,53 +19,11 @@
     justify-content: space-around;
     padding: 1rem 0;
     align-items: center;
-    
   }
 
   @media (min-width: 2000px) {
     display: flex;
     justify-content: space-evenly;
-  }
-
-  .mobile-content {
-    font-weight: 700;
-    font-size: 1.2rem;
-    
-    a {
-      display: flex;
-      align-items: center;
-
-      .logo {
-        margin-right: .5rem;
-      }
-
-      .logo-name {
-        font-size: 1.2rem;
-        transition: all;
-        transition-duration: 500ms;
-
-        &:hover {
-          color: pink;
-          transition-duration: 100ms;
-          margin-top: -.5rem;
-        }
-      }
-    }
-
-    @media (max-width: 994px) {
-      margin: 0.5rem 1rem;
-    }
-  }
-}
-
-.nav-header {
-  @media (max-width: 994px) {
-    height: 100vh;
-    width: 100vw;
-    background: #312e81;
-    z-index: 10;
-    opacity: 0.95;
-    position: fixed;
   }
 
   ul {
@@ -74,7 +32,6 @@
     justify-content: center;
     align-items: center;
     list-style-type: none;
-    
 
     a {
       gap: 2px;
@@ -91,7 +48,7 @@
         position: relative;
 
         &:before {
-          content: '';
+          content: "";
           height: 2px;
           width: auto;
           background-color: bisque;

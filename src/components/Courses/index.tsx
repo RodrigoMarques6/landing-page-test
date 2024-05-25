@@ -32,6 +32,7 @@ export function Courses() {
                 <br /> Ponto de partida para sua jornada no mundo dos
                 investimentos.
               </p>
+              <p>240h</p>
             </div>
             <div className="edit-courses">
               <p>
@@ -40,6 +41,7 @@ export function Courses() {
                 </span>
                 <br /> Dominando CDB, LCI, LCA e Marcação a Mercado.
               </p>
+              <p>320h</p>
             </div>
             <div className="edit-courses">
               <p>
@@ -48,6 +50,7 @@ export function Courses() {
                 </span>
                 <br /> Estratégias para ganhos a longo prazo.
               </p>
+              <p>320h</p>
             </div>
           </div>
           <div className="courses-flex">
@@ -59,6 +62,7 @@ export function Courses() {
                 <br /> Obtenha confiança enquanto multiplica seu patrimônio em
                 ações brasileiras.
               </p>
+              <p>250h</p>
             </div>
             <div className="edit-courses">
               <p>
@@ -67,6 +71,7 @@ export function Courses() {
                 </span>
                 <br /> Invista na economia mais sólida do mundo.
               </p>
+              <p>320h</p>
             </div>
             <div className="edit-courses">
               <p>
@@ -76,6 +81,7 @@ export function Courses() {
                 <br /> Obtenha fluxos de controle para a sua carteira de
                 investimentos.
               </p>
+              <p>320h</p>
             </div>
           </div>
         </div>

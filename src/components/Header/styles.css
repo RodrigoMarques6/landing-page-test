@@ -58,32 +58,14 @@
   }
 }
 
-/* export const MobileIcon = styled.div`
-  display: none;
-  @media (max-width: 994px) {
-    display: block;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    cursor: pointer;
-    z-index: 20;
-  }
-`
-
-interface Click {
-  readonly open: boolean
-} */
-
 .nav-header {
   @media (max-width: 994px) {
     height: 100vh;
     width: 100vw;
-    background: greenyellow;
+    background: #312e81;
     z-index: 10;
     opacity: 0.95;
     position: fixed;
-    /* transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')}; */
-    transition: transform 0.5s ease-in-out;
   }
 
   ul {
@@ -146,16 +128,6 @@ interface Click {
   }
 }
 
-/* export const Icons = styled.div`
-  @media (min-width: 995px) {
-    display: none;
-  }
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1.1rem;
-  margin-top: 1.7rem;
-  font-size: 1.5rem;
-  cursor: pointer;
-` */
+.logo {
+  color: aqua;
+}

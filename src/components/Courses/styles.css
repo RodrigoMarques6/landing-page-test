@@ -5,7 +5,7 @@
   min-height: 90vh;
   margin: auto;
   margin-top: 20px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .div1-courses {
@@ -16,7 +16,6 @@
 .div2-courses {
   width: 60%;
   margin-left: 5%;
-  
 }
 
 @media (max-width: 699px) {

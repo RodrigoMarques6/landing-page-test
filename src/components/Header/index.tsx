@@ -3,10 +3,8 @@ import "./styles.css";
 
 export function Header() {
   return (
-    <section
-      className="container-header"
-      // style={{ position: "fixed" }}
-    >
+    <section className="container-header">
+      <p className="logo">LOGO</p>
       <div className="mobile-content"></div>
 
       <nav className="nav-header">

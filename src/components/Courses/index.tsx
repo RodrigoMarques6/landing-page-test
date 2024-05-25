@@ -18,8 +18,8 @@ export function Courses() {
           <br />
           <p>
             Explore nossas imersões do Mercado Financeiro e consiga
-            rentabilidades que vão além das expectativas,
-            garantindo um futuro financeiro próspero!
+            rentabilidades que vão além das expectativas, garantindo um futuro
+            financeiro próspero!
           </p>
         </div>
         <div className="div2-courses">

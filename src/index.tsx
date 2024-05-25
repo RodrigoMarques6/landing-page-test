@@ -7,6 +7,7 @@ import { Footer } from "./components/Footer";
 import { Home2 } from "./components/Home";
 import { Courses } from "./components/Courses";
 import { Depositions } from "./components/Depositions";
+import { Contact } from "./components/Contact";
 export default function Home() {
   return (
     <>
@@ -15,6 +16,7 @@ export default function Home() {
         <Home2 />
         <Courses />
         <Depositions/>
+        <Contact/>
       </section>
       <Footer />
     </>

@@ -55,12 +55,15 @@ export function Depositions() {
     <section className="section-depositions">
       <div>
         <h1 id="h1-depositions">
-          Alguns <span id="span-depositions">Depoimentos</span>.
+          Alguns<span id="span-depositions">Depoimentos</span>.
         </h1>
       </div>
       <div id="div-depositions">
         <div className="description">
-          <h2>As <span id="feedback">opiniões</span> dos nossos alunos são <span id="feedback">valiosas</span>!</h2>
+          <h2>
+            As <span id="feedback">opiniões</span> dos nossos alunos são{" "}
+            <span id="feedback">valiosas</span>!
+          </h2>
           <p>
             Leia os feedbacks e saiba como nossos cursos de finanças online
             ajudaram muitos a conquistar seus objetivos financeiros.

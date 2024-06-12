@@ -18,13 +18,6 @@
   margin-left: 5%;
 }
 
-@media (max-width: 699px) {
-  #div-courses {
-    padding: 30px;
-    display: block;
-  }
-}
-
 #h1-courses {
   font-family: "Poppins", "Open Sans", sans-serif;
   color: white;
@@ -63,4 +56,38 @@ a {
   display: flex;
   gap: 1rem;
   margin: 1rem;
+}
+
+@media (max-width: 1100px) {
+  .div1-courses {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    padding: 1rem;
+  }
+  .div2-courses {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+
+  #div-courses {
+    display: block;
+  }
+
+  .courses-flex {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .courses-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-courses {
+    margin-bottom: 4rem;
+  }
 }
